@@ -1,0 +1,32 @@
+# TFT_HX8357 is a separate git clone. build.sh clones it into lib/ when it's missing.
+lib/TFT_HX8357/
+
+# Build output. arduino-cli builds in a Windows temp dir by default, but
+# --build-path or other tools may put artifacts in the tree.
+build/
+*.o
+*.a
+*.elf
+*.hex
+*.eep
+*.map
+*.lst
+
+# Desktop test binaries (tests/run.sh builds them in $TMPDIR, but just in case)
+equiv
+equiv_desktop
+equiv_avr
+
+# Editors: keep the shared IntelliSense config, ignore per-user settings
+.vscode/*
+!.vscode/c_cpp_properties.json
+*.swp
+*~
+
+# OS clutter (the Windows side of WSL)
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Claude Code per-user settings
+.claude/settings.local.json
