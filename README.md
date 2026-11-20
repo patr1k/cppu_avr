@@ -1,4 +1,4 @@
-# avrboy
+# cppu_avr
 
 Parts of the Game Boy (DMG) on an Arduino Mega2560 with a 480x320 HX8357 TFT
 shield ([TFT_HX8357](https://github.com/Bodmer/TFT_HX8357)).
